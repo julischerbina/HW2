@@ -32,5 +32,20 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var weight = firstBoxer + secondBoxer;
+        System.out.println("Общий вес спортсменов составляет " + weight + " кг!");
+        var difWeight = secondBoxer - firstBoxer;
+        System.out.println("Вес первого бойца меньше, чем вес второго на " + difWeight + " кг!");
+        difWeight = secondBoxer % firstBoxer;
+        System.out.println("Вес первого бойца меньше, чем вес второго на " + difWeight + " кг!");
+        var hours = 640;
+        var onePersonHour=8;
+        var amount = hours/onePersonHour;
+        System.out.println("Всего работников в компании – " + amount +  " человек");
+        amount = amount + 94;
+        hours = amount * 8;
+        System.out.println("Если в компании работает " + amount + " человека, то всего " + hours + " часов работы может быть поделено между сотрудниками");
     }
 }
